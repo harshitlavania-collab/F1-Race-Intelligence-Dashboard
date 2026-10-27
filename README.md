@@ -1,14 +1,14 @@
-# 🏎️ F1 Race Intelligence Dashboard
+# F1 Race Intelligence Dashboard
 
 An interactive **Tableau dashboard project** for exploring Formula 1 race results, constructor performance, driver standings, podium finishes, tyre-compound outcomes, and race reliability.
 
-## 📌 Project Overview
+## Project Overview
 
 The F1 Race Intelligence Dashboard brings key race-performance indicators into a single place to help users explore patterns across seasons, drivers, constructors, circuits, and race outcomes.
 
 This repository includes the packaged Tableau workbook and project documentation in PowerPoint, PDF, and Word formats.
 
-## 🎯 Objectives
+## Objectives
 
 - Explore constructor points and performance trends across seasons.
 - Compare driver points and podium finishes.
@@ -17,7 +17,7 @@ This repository includes the packaged Tableau workbook and project documentation
 - Summarize race-host countries and circuit information.
 - Present findings in a dashboard that is easy to explore and share.
 
-## 📊 Dashboard Contents
+## Dashboard Contents
 
 ### Dashboard 1 — F1 Race Intelligence
 
@@ -33,7 +33,7 @@ This repository includes the packaged Tableau workbook and project documentation
 - **Driver Reliability by Driver:** average DNF flag, interpreted as a row-level DNF-rate proxy.
 - **Podiums by Driver:** podium finishes by driver.
 
-## 🗂️ Dataset Summary
+## Dataset Summary
 
 The source workbook contains these worksheets:
 
@@ -49,7 +49,7 @@ The `race_results` worksheet covers seasons **2010–2026**. The mapped race dat
 
 > **Data note:** Row counts describe the source workbook used when this project documentation was prepared. They may differ if the data is refreshed or modified.
 
-## 🧮 Data Mapping and Metrics
+## Data Mapping and Metrics
 
 | Dashboard field | Source or rule |
 |---|---|
@@ -87,7 +87,7 @@ SUM([Points]) / COUNT([Race ID])
 AVG([Positions Gained])
 ```
 
-## 🛠️ Tools
+## Tools
 
 - **Tableau** — dashboard development and data visualization.
 - **Microsoft PowerPoint** — project presentation.
@@ -95,7 +95,7 @@ AVG([Positions Gained])
 - **PDF** — portable report format.
 - **GitHub** — version control and project sharing.
 
-## 📁 Repository Structure
+## Repository Structure
 
 Suggested layout:
 
@@ -110,7 +110,7 @@ F1-Race-Intelligence-Dashboard/
 
 The `.twbx` file is a packaged Tableau workbook and may contain embedded data extracts or supporting resources.
 
-## 🚀 How to Open the Dashboard
+## How to Open the Dashboard
 
 1. Download or clone this repository.
 2. Install and open Tableau Desktop or a compatible Tableau application.
@@ -119,26 +119,28 @@ The `.twbx` file is a packaged Tableau workbook and may contain embedded data ex
 5. If Tableau prompts you to upgrade the workbook, review the prompt and proceed if appropriate.
 6. Confirm the data source is available and that worksheets and dashboards render correctly.
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 - Driver nationality and team nationality are not supplied in the uploaded workbook; nationality fields are left blank and are not used in the dashboards.
 - The available `circuit_name` field is used as the Grand Prix/circuit label because a separate official event-name field is not available.
 - Driver reliability is represented by an average DNF flag and should be interpreted as a row-level DNF-rate proxy, not as a complete engineering reliability measure.
 - Validate the workbook in Tableau Desktop after opening it, especially if your Tableau version or data source differs from the original environment.
 
-## 📄 Project Documentation
+## Project Documentation
 
 - **Presentation:** `F1_Race_Intelligence_Project.pptx`
 - **PDF report:** `F1_Race_Intelligence_Project.pdf`
 - **Editable report:** `F1_Race_Intelligence_Project.docx`
 
-## 🔒 Data and Licensing
+## Data and Licensing
 
 Before making this repository public, confirm that you have permission to redistribute the underlying dataset and any third-party assets. Add the applicable source attribution or license information here. Do not claim a dataset license unless you have verified it.
 
-## 👤 Author
+## Author
 
-Add your name, portfolio link, or contact details here if you want to identify yourself as the project author.
+**Harshit Lavania**
+
+GitHub: [Harshit Lavania](https://github.com/harshitlavania-collab)
 
 ---
 
